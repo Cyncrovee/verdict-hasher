@@ -1,5 +1,5 @@
 [project]
-name = "verdict_hasher"
+name = "verdict_hasher_cli"
 version = "0.1.0"
 description = "A project for file configuration and hashing"
 readme = "README.md"
@@ -15,6 +15,7 @@ authors = [
 
 [tool.setuptools]
 packages = { find = { include = ["verdict_hasher"] } }
+license-files = []
 
 [dependency-groups]
 dev = [
@@ -25,3 +26,4 @@ dev = [
     "pytest>=8.3.4",
     "uv>=0.5.25",
 ]
+
